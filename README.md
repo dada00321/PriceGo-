@@ -1,6 +1,12 @@
 # PriceGo-
 Compare merchandises for a given searching keyword, also can add to favorite-list. Underpinned by crawling some shopping website.
 
+使用限制:
+因本程式儲存追蹤商品的資料庫部分僅以本機伺服器、DBMS做一個簡易的應用。
+故使用前需先下載 HeidiSQL9 及 PHPViewer，方能使用 "加入追蹤商品" 功能。
+
+
+
 目前有的功能:
 1. 輸入搜尋商品
 2. 爬蟲購物網站資訊
