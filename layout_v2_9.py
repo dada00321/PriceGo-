@@ -435,7 +435,7 @@ class Ui_MainWindow(object):
                 # 每個 item 是一個字典, 有 3 keys: "No", "itemid", "shopid"
                 No, itemid, shopid = item.values()
                 
-                #if No==6: break  # only test the top 3 data
+                #if No==6: break  # only test the top 5 data
                 
                 #print(f"　開始爬 第 {No} 件商品")
                 self.statusBar().showMessage(f"　開始爬 第 {No} 件商品")
