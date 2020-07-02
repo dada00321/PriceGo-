@@ -10,7 +10,7 @@ I. 使用限制:
   2.
   (1)Shopee_Crawler_v1_2.py 
     ∟ Line 51: if page_n > 1: break    # only test the first page
-    --> 可自行在前方加上#註解，已爬取搜尋結果的所有頁面
+    --> 可自行在前方加上#註解，以爬取搜尋結果的所有頁面
   
   (2)layout_v2_9.py
     ∟ Line 438: #if No==6: break  # only test the top 5 data
