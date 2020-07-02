@@ -4,8 +4,13 @@ Compare merchandises for a given searching keyword, also can add to favorite-lis
 使用限制:
 因本程式儲存追蹤商品的資料庫部分僅以本機伺服器、DBMS做一個簡易的應用。
 故使用前需先下載 HeidiSQL9 及 PHPViewer，方能使用 "加入追蹤商品" 功能。
+(可至"附件下載"的雲端鏈結中下載，包含這兩個檔案的壓縮檔)
 
+附件下載: (共用的Google雲端鏈結)
+https://drive.google.com/drive/folders/149JYwkfiHdnY_CJuejtEtkINx4D15Dah
 
+Demo影片:
+https://www.youtube.com/watch?v=0-ttEgsAhns
 
 目前有的功能:
 1. 輸入搜尋商品
@@ -17,9 +22,10 @@ Compare merchandises for a given searching keyword, also can add to favorite-lis
 6. 查看及排序追蹤清單
 
 未來想加的功能: 
-1. 追蹤清單和爬蟲結果，可以做刪除該筆商品的功能
-2. 將爬蟲結果儲存為excel檔案。當搜尋先前已搜尋過的商品時，可選擇是否以excel檔載入(或重新爬蟲)
-3. 使用多執行緒，提高運行效率
-4. 商品推薦功能: 以用戶儲存的追蹤清單為推薦的依據
-5. 使用NLP中文分詞技術，將每筆搜尋結果的商品名稱分為不同標籤，提高商品搜尋的精準度。
+1. 增加一個欄位，點選後可開啟超鏈結，顯示該商品的實際網頁
+2. 追蹤清單和爬蟲結果，可以做刪除該筆商品的功能
+3. 將爬蟲結果儲存為excel檔案。當搜尋先前已搜尋過的商品時，可選擇是否以excel檔載入(或重新爬蟲)
+4. 使用多執行緒，提高運行效率
+5. 商品推薦功能: 以用戶儲存的追蹤清單為推薦的依據
+6. 使用NLP中文分詞技術，將每筆搜尋結果的商品名稱分為不同標籤，提高商品搜尋的精準度。
 (如: 搜尋: "島風"，會出現 "巴里島風編織扇..."。若能利用分詞模組拆解商品名稱，就可以過濾不相關的結果)
